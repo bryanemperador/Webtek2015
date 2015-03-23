@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dashboard</title>
+		<meta charset = "utf-8" >
+		<link rel = "stylesheet" href = "styles.css" type = "text/css">
+		<script type = "text/javascript" src = "script/scripts.js"></script>
+	</head>
+
+	<body>
+		<nav>
+		<ul>
+			<li><a href = "home.html"><img src="samplelogo.png" id = "icona" alt= ""/></a></li>
+			<li><a href = "index.html"><img src="dashboard.png" id = "icon" alt= ""/></a></li>
+			<li><a href = "calendar.html"><img src="calendar.png" id = "icon" alt= ""/></a></li>
+			<li><a href = "task.html"><img src="task.png" id = "icon" alt= ""/></a></li>
+			<li><a href = "schedule.html"><img src="schedule.png" id = "icon" alt= ""/></a></li>
+			</ul>
+		</nav>
+		
+		<h1>Dashboard</h1>
+		<div id = "container">
+		<div id = "today_box">
+			<h2>Today - March 20, 2015</h2>
+			
+			<p id="desc">Quiz today on Personality Development</p>
+		</div>
+		<div id = "today_projects">		
+			<h2>Projects</h2>
+			<p id="desc">Integ Project - Network Game</p>
+			<p id="desc">Webtek Project - Web App</p>
+		</div>
+		<div id = "today_quizzes">
+			<h2>Quizzes</h2>
+			<p id="desc">HCI Quiz - March 28, 2015</p>
+		</div>
+		<div id = "today_exam">
+			<h2>Exam</h2>
+			<p id="desc">Midterm Exam - Networks March 31, 2015</p>
+		</div>
+		</div>
+	</body>
+</html>
