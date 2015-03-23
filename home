@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dashboard</title>
+		<meta charset = "utf-8" >
+		<link rel = "stylesheet" href = "styles.css" type = "text/css">
+		<script type = "text/javascript" src = "script/scripts.js"></script>
+	</head>
+
+	<body>
+		<nav>
+		<ul>
+			<li><a href = "home.html"><img src="samplelogo.png" id = "icona" alt= ""/></a></li>
+			<li><a href = "index.html"><img src="dashboard.png" id = "icon" alt= ""/></a></li>
+			<li><a href = "calendar.html"><img src="calendar.png" id = "icon" alt= ""/></a></li>
+			<li><a href = "task.html"><img src="task.png" id = "icon" alt= ""/></a></li>
+			<li><a href = "schedule.html"><img src="schedule.png" id = "icon" alt= ""/></a></li>
+			</ul>
+		</nav>
+		<div id = "logo"><img src="logo.png" id = "logo" alt= ""/></div>
+		<div id = "logodesc">
+		<p id = "desclogo">StudyBuddy is an organizer that allows the user to input and manage their schedule,quiz,exam and task.</p>
+		</div>
+		
+	</body>
+</html>
